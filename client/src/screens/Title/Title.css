@@ -13,19 +13,16 @@
 }
 
 .title-photo {
-  /* background-color: var(--display-med-purple); */
-  background: url("../../assets/photo1.jpeg");
-  background-position: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 100%),
+    url("../../assets/photo1.jpeg") no-repeat, center;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 85vh;
 }
 
 .title-info {
-  /* background-color: var(--prime-dark); */
-  background: url("../../assets/art-deco\ copy.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent 100%),
+    url("../../assets/art-deco\ copy.jpg") no-repeat, center;
   background-attachment: fixed;
-  background-position: center;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -35,10 +32,10 @@
 }
 
 .title-text {
-  background-color: var(--prime-med);
+  background-color: var(--prime-dark);
   height: 70%;
   width: 60%;
-  border: 8px double var(--prime-dark);
+  border: 8px double var(--prime-med);
   display: flex;
   justify-content: center;
   align-items: center;
