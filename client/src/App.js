@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Layout from './screens/shared/Layout/Layout';
 import Title from './screens/Title/Title';

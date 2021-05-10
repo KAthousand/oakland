@@ -1,5 +1,5 @@
 .header-container {
-  background-color: var(--dark-purple);
+  background-color: var(--prime-dark);
   position: fixed;
   top: 0;
   height: 6vh;
@@ -28,7 +28,7 @@
 }
 
 .nav-menu {
-  background-color: var(--dark-purple);
+  background-color: var(--prime-dark);
   height: 6vh;
   width: 85%;
   margin-left: 7.5%;
@@ -40,7 +40,7 @@
 }
 
 .nav-link {
-  color: var(--dark-gold);
+  color: var(--prime-light);
   font-size: 0.7em;
   font-weight: 700;
   letter-spacing: 1px;
@@ -53,11 +53,11 @@
 }
 
 .nav-link:hover {
-  color: var(--light-gold);
+  color: var(--secondary-med);
 }
 
 .mobile-nav {
-  background-color: var(--dark-purple);
+  background-color: var(--prime-dark);
   margin-top: 6vh;
   height: 30vh;
   width: 100%;
@@ -66,7 +66,7 @@
 }
 
 .mobile-nav-closed {
-  background-color: var(--dark-purple);
+  background-color: var(--prime-dark);
   height: 0;
   margin-top: 5vh;
   transition: 0.5s;
@@ -82,7 +82,7 @@
 }
 
 .mobile-link {
-  color: var(--dark-gold);
+  color: var(--prime-light);
   opacity: 100;
   transition: 1.5s;
   width: 30%;
@@ -95,11 +95,11 @@
   letter-spacing: 1px;
 }
 .mobile-link:hover {
-  color: var(--light-gold);
+  color: var(--secondary-med);
 }
 
 .mobile-link-closed {
-  color: var(--light-purple);
+  color: var(--prime-light);
   opacity: 0;
   width: 50%;
   padding: 5px;
@@ -108,7 +108,7 @@
 }
 
 .reservation {
-  background-color: var(--med-purple);
+  background-color: var(--prime-med);
   color: var(--white);
 }
 
@@ -126,14 +126,14 @@
   width: 4.5vh;
   position: relative;
   background-color: transparent;
-  border: 2px solid var(--dark-gold);
+  border: 2px solid var(--prime-light);
   transition: 1s;
   z-index: 1000;
 }
 
 .nav-icon button::before {
   content: "";
-  background-color: var(--dark-gold);
+  background-color: var(--prime-light);
   position: absolute;
   top: 1.5vh;
   left: 0.8vh;
@@ -144,7 +144,7 @@
 
 .nav-icon button::after {
   content: "";
-  background-color: var(--dark-gold);
+  background-color: var(--prime-light);
   position: absolute;
   bottom: 1.25vh;
   left: 0.8vh;
@@ -159,7 +159,7 @@
   width: 4.5vh;
   position: relative;
   background-color: transparent;
-  border: 2px solid var(--dark-gold);
+  border: 2px solid var(--prime-light);
   transform: rotate(-180deg);
   transition: 1s;
   z-index: 1000;
@@ -167,7 +167,7 @@
 
 .nav-icon2 button::before {
   content: "";
-  background-color: var(--dark-gold);
+  background-color: var(--prime-light);
   position: absolute;
   top: 1.75vh;
   left: 0.7vh;
@@ -179,7 +179,7 @@
 
 .nav-icon2 button::after {
   content: "";
-  background-color: var(--dark-gold);
+  background-color: var(--prime-light);
   position: absolute;
   top: 1.75vh;
   left: 0.7vh;

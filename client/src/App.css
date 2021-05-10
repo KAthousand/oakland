@@ -26,14 +26,11 @@ button {
 }
 
 :root {
-  --white: #dce0df;
-  --dark-purple: #070011;
-  --med-purple: #290235;
-  --light-purple: #542b5f;
-  --display-med-purple: #a376a5;
-  --display-light-purple: #d5a5d6;
-  --display-dark-purple: #744a76;
-  --dark-gold: #9f8320;
-  --med-gold: #d3b250;
-  --light-gold: #ffe47f;
+  --white: #c8caca;
+  --prime-med: #423944;
+  --prime-light: #645766;
+  --prime-dark: #150f16;
+  --secondary-med: #cdccae;
+  --secondary-light: #ffffe0;
+  --secondary-dark: #9c9b7f;
 }

@@ -1,0 +1,8 @@
+.footer-container {
+  background-color: var(--prime-dark);
+  height: 5vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
