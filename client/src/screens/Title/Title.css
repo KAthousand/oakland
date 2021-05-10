@@ -16,12 +16,14 @@
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 100%),
     url("../../assets/photo1.jpeg") no-repeat, center;
   background-size: cover;
+  background-position: center;
   height: 85vh;
 }
 
 .title-info {
   background: linear-gradient(rgba(0, 0, 0, 0.6), transparent 100%),
     url("../../assets/art-deco\ copy.jpg") no-repeat, center;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;

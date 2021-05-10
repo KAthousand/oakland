@@ -1,0 +1,30 @@
+.slide {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+  transform: translateX(0%);
+  transition: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.slide-transition-right {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  transform: translateX(100%);
+}
+.slide-transition-left {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-100%);
+}
