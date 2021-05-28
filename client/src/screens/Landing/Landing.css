@@ -1,6 +1,6 @@
 .landing {
   background-color: black;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
   z-index: 1001;
   margin: 0;
   animation: fade-out 1s forwards;
-  animation-delay: 4s;
+  animation-delay: 3.5s;
 }
 
 .logo-header {
@@ -50,9 +50,13 @@
 @keyframes fade-out {
   from {
     background-color: black;
+    position: fixed;
+    z-index: 1001;
   }
   to {
     background-color: transparent;
+    position: absolute;
+    z-index: 1;
   }
 }
 
