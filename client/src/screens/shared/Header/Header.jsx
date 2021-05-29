@@ -9,7 +9,7 @@ function Header(props) {
       <div className='header-content'>
       <a href='#title' className='logo'  alt='home'> </a>
         <a href='#menu' className='nav-link'>MENU</a>
-        <a href='/info' className='nav-link'>LOCATION &amp; HOURS</a>
+        <a href='#info' className='nav-link'>LOCATION &amp; HOURS</a>
         <a href='https://app.upserve.com/b/the-oakland/gift-card ' className='nav-link'>GIFT CARDS</a>
         <a href='https://www.exploretock.com/theoakland' className='nav-link reservation'>RESERVATIONS</a>
       </div>

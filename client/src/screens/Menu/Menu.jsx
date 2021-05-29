@@ -1,6 +1,5 @@
 import React from 'react';
 import MenuButton from '../../components/MenuButton/MenuButton';
-import Slider from '../../components/Slider/Slider';
 import "./Menu.css"
 
 function Menu(props) {

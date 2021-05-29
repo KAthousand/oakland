@@ -3,7 +3,7 @@ import "./MenuButton.css"
 
 function MenuButton(props) {
   return (
-    <a href="https://drive.google.com/file/d/19-G78NjZ8zywtCAD8dGZZjsdL43QfJcF/view?usp=sharing" target="_blank" className='menu-btn'>
+    <a href="https://drive.google.com/file/d/19-G78NjZ8zywtCAD8dGZZjsdL43QfJcF/view?usp=sharing" target="_blank" rel="noreferrer" className='menu-btn'>
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 1366 768" className='menu-svg'>
         <g id="menu-border">
 	        <rect x="61.43" y="174.47" class="st0-2" width="104" height="104"/>

@@ -1,0 +1,106 @@
+.info-container {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent 100%),
+    url("../../assets/inverse-art-deco.png") no-repeat, center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-content {
+  background-color: var(--secondary-med);
+  border: 4px solid var(--prime-med);
+  height: 60%;
+  width: 40%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-text {
+  height: 97%;
+  width: 96%;
+  padding: 5% 20%;
+  border: 4px solid var(--prime-med);
+  text-align: center;
+  color: var(--prime-med);
+  font-family: var(--font-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info-header {
+  font-family: var(--font-secondary);
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+.info-header::after {
+  content: "";
+  display: block;
+  height: 0.5px;
+  width: 125px;
+  margin: 1% auto;
+  background-color: var(--prime-med);
+}
+
+.info-body {
+  font-family: var(--font-tertiary);
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 0.85em;
+}
+
+.hours {
+  font-size: 0.85em;
+}
+
+.map-btn {
+  height: 100%;
+  width: 40%;
+  border-radius: 3px;
+  color: var(--secondary-med);
+  background-color: var(--prime-med);
+  font-family: var(--font-tertiary);
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 1.25em;
+  transition: 0.5s;
+}
+.map-btn:hover {
+  background-color: var(--prime-dark);
+}
+
+.email {
+  color: var(--prime-dark);
+  font-family: var(--font-secondary);
+  font-weight: 900;
+}
+
+.email:hover {
+  color: var(--prime-med);
+}
+
+.icon-container {
+  height: 10%;
+  margin-bottom: 12%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-container i {
+  transform: scale(2.5);
+  color: var(--prime-med);
+  transition: 0.5s;
+}
+
+.icon-container i:hover {
+  color: var(--prime-dark);
+}

@@ -21,6 +21,10 @@ button {
   border: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
   overflow: hidden;
@@ -61,4 +65,5 @@ body {
   --secondary-dark: #8c95c0;
   --font-prime: "Baskervville", serif;
   --font-secondary: "Montserrat", sans-serif;
+  --font-tertiary: "Open Sans", sans-serif;
 }
