@@ -4,7 +4,7 @@ import "./Menu.css"
 
 function Menu(props) {
   return (
-    <div className='menu-container'>
+    <div className='menu-container' id='menu'>
       <Slider />
     </div>
   );

@@ -27,15 +27,13 @@ body {
   animation: landing-screen 1s forwards;
   animation-delay: 3.5s;
 }
-
 body::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 @keyframes landing-screen {
@@ -58,7 +56,9 @@ body {
   --prime-med: #423944;
   --prime-light: #645766;
   --prime-dark: #0a060a;
-  --secondary-med: #cdccae;
-  --secondary-light: #ffffe0;
-  --secondary-dark: #9c9b7f;
+  --secondary-med: #bdc5f3;
+  --secondary-light: #f0f8ff;
+  --secondary-dark: #8c95c0;
+  --font-prime: "Baskervville", serif;
+  --font-secondary: "Montserrat", sans-serif;
 }

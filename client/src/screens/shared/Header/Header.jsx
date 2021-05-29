@@ -7,12 +7,11 @@ function Header(props) {
   return (
     <div className='header-container'>
       <div className='header-content'>
-      <a className='logo'href='/'></a>
-        <a href='_blank' className='nav-link'>ORDER ONLINE</a>
-        <a href='/menu' className='nav-link'>MENU</a>
+      <a href='#title' className='logo'  alt='home'> </a>
+        <a href='#menu' className='nav-link'>MENU</a>
         <a href='/info' className='nav-link'>LOCATION &amp; HOURS</a>
-        <a href='_blank' className='nav-link'>PRIVATE EVENTS</a>
-        <a href='_blank' className='nav-link reservation'>RESERVATIONS</a>
+        <a href='https://app.upserve.com/b/the-oakland/gift-card ' className='nav-link'>GIFT CARDS</a>
+        <a href='https://www.exploretock.com/theoakland' className='nav-link reservation'>RESERVATIONS</a>
       </div>
       <div className='nav-menu'>
         <div className='logo'></div>
