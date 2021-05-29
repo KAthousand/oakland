@@ -1,0 +1,37 @@
+.menu-svg {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 100%;
+}
+
+.menu-svg:hover {
+  fill: blue;
+}
+
+.st0-2 {
+  /* display: none; */
+  fill: none;
+  stroke: #c8caca;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.st1-2 {
+  display: none;
+  fill: #c8caca;
+  stroke: #c8caca;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.st2-2 {
+  fill: #c8caca;
+}
+
+.menu-btn {
+  background-color: transparent;
+  padding: 0 15px;
+  transition: 0.5s;
+}
+
+.menu-btn:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
