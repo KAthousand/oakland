@@ -102,9 +102,6 @@
 }
 
 @media screen and (max-height: 400px) and (max-width: 850px) {
-  .menu-container {
-    border: 1px solid green;
-  }
   .top-center {
     display: none;
   }

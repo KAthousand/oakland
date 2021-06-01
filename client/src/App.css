@@ -64,12 +64,12 @@ body {
 
 @media screen and (max-height: 400px) and (max-width: 850px) {
   body {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
   }
   html {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
   }
 }

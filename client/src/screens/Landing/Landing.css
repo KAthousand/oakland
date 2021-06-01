@@ -115,7 +115,6 @@
 @media screen and (max-height: 400px) and (max-width: 850px) {
   .landing {
     position: absolute;
-    border: 1px solid red;
   }
   .logo-subhead {
     margin-top: 15%;
