@@ -62,16 +62,66 @@
   line-height: 1.35em;
 }
 
-@media (max-width: 1400px) {
+.coupe-hand {
+  background: url("../../assets/coupehand.png") no-repeat, center;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  margin-top: 35%;
+  margin-right: 30%;
+  transform: rotate(-15deg);
+}
+
+.bottle-hands {
+  background: url("../../assets/bottlehands.png") no-repeat, center;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  height: 60%;
+  width: 30%;
+  margin-left: 60%;
+  transform: rotate(10deg);
+}
+
+.collins-hand {
+  background: url("../../assets/collinshand.png") no-repeat, center;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  height: 50%;
+  width: 20%;
+  margin-bottom: 25%;
+  margin-right: 50%;
+  transform: rotate(-25deg);
+}
+
+@media (max-width: 1200px) {
   .title-text {
     height: 90%;
     width: 50vw;
+  }
+  .coupe-hand {
+    margin-right: 40%;
+  }
+  .collins-hand {
+    display: none;
+  }
+  .bottle-hands {
+    height: 40%;
   }
 }
 
 @media (max-width: 800px) {
   .title-text {
     width: 80vw;
+  }
+  .coupe-hand {
+    display: none;
+  }
+  .bottle-hands {
+    display: none;
   }
 }
 
