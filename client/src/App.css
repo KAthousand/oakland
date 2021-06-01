@@ -58,8 +58,7 @@ body {
 
 @media (max-width: 600px) {
   body {
-    -ms-overflow-style: auto;
-    scrollbar-width: auto;
+    overflow: auto;
   }
 }
 
