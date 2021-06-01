@@ -20,7 +20,7 @@
 
 .nav-logo {
   color: white;
-  font-family: "Baskervville", serif;
+  font-family: var(--font-prime);
   font-weight: 800;
   display: flex;
   justify-content: flex-start;
@@ -31,7 +31,7 @@
 
 .nav-logo-mobile {
   color: white;
-  font-family: "Baskervville", serif;
+  font-family: var(--font-prime);
   font-weight: 800;
   display: flex;
   justify-content: flex-start;

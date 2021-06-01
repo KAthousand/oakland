@@ -15,7 +15,7 @@
 
 .logo-header {
   color: white;
-  font-family: "Baskervville", serif;
+  font-family: var(--font-prime);
   font-weight: 800;
   position: absolute;
   animation: fade-in 2s forwards;
@@ -98,5 +98,9 @@
   .logo-subhead {
     font-size: 2em;
     margin-top: 55%;
+  }
+
+  .landing {
+    position: absolute;
   }
 }
