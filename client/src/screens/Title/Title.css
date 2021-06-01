@@ -129,4 +129,7 @@
   .title-text {
     width: 90vw;
   }
+  .title-info {
+    background-attachment: auto;
+  }
 }
