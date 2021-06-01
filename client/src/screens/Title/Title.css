@@ -135,6 +135,9 @@
 }
 
 @media screen and (max-height: 400px) and (max-width: 850px) {
+  .title-container {
+    overflow-x: hidden;
+  }
   .title-address {
     height: 13vh;
   }
