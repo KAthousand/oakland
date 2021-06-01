@@ -16,7 +16,7 @@
 .logo-header {
   color: white;
   font-family: var(--font-prime);
-  font-weight: 800;
+  font-weight: 400;
   position: absolute;
   animation: fade-in 2s forwards;
   animation-delay: 2s;
