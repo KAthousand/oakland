@@ -60,6 +60,36 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .logo-header {
+    font-size: 1.5em;
+  }
+
+  .logo-subhead {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 1050px) {
+  .logo-header {
+    font-size: 1.25em;
+  }
+
+  .logo-subhead {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo-header {
+    font-size: 1em;
+  }
+
+  .logo-subhead {
+    font-size: 1.5em;
+  }
+}
+
 @media (max-width: 600px) {
   .logo-header {
     font-size: 1em;
@@ -67,6 +97,6 @@
 
   .logo-subhead {
     font-size: 2em;
-    margin-top: 78%;
+    margin-top: 55%;
   }
 }

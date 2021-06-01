@@ -21,6 +21,11 @@ button {
   border: none;
 }
 
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 html {
   scroll-behavior: smooth;
 }

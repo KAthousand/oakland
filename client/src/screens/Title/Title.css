@@ -61,3 +61,22 @@
   letter-spacing: 1px;
   line-height: 1.35em;
 }
+
+@media (max-width: 1400px) {
+  .title-text {
+    height: 90%;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .title-text {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-text {
+    width: 90vw;
+  }
+}

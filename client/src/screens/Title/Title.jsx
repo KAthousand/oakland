@@ -12,9 +12,6 @@ function Title(props) {
       </div>
       <div className='title-info'>
         <div className='title-text'>
-          {/* <div className='title-header'>
-            <h1>oakland</h1>
-          </div> */}
           <div className='title-body'>
             <p>A friendly neighborhood bar in the heart of downtown Ferndale, MI serving world-class cocktails, exceptional American whiskey, and artisan Mezcal in a nostalgic and elegant environment</p>
           </div>

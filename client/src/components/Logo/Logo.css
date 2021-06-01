@@ -58,6 +58,9 @@
 }
 
 @media (max-width: 600px) {
+  .title-logo {
+    overflow: hidden;
+  }
   .logo2 {
     transform: scale(1.75);
   }

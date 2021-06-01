@@ -104,3 +104,12 @@
 .icon-container i:hover {
   color: var(--prime-dark);
 }
+
+@media (max-width: 600px) {
+  .info-content {
+    width: 85%;
+  }
+  .info-text {
+    padding: 5% 10%;
+  }
+}
