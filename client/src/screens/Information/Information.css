@@ -120,6 +120,7 @@
 @media screen and (max-height: 400px) and (max-width: 850px) {
   .info-container {
     height: 180vh;
+    border: 1px solid yellow;
   }
   .info-content {
     width: 80%;
