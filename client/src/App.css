@@ -64,7 +64,8 @@ body {
 
 @media screen and (max-height: 400px) and (max-width: 850px) {
   body {
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     width: 100vw;
   }
 }
