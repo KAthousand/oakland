@@ -1,6 +1,0 @@
-@media screen and (max-height: 400px) and (max-width: 850px) {
-  .layout {
-    width: 100vw;
-    overflow-x: hidden;
-  }
-}
