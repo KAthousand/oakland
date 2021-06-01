@@ -17,6 +17,7 @@
   color: white;
   font-family: var(--font-prime);
   font-weight: 400;
+  font-style: italic;
   position: absolute;
   animation: fade-in 2s forwards;
   animation-delay: 2s;
@@ -102,5 +103,11 @@
 
   .landing {
     position: absolute;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-subhead {
+    margin-top: 30%;
   }
 }

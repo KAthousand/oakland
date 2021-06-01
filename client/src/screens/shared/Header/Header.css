@@ -21,6 +21,7 @@
 .nav-logo {
   color: white;
   font-family: var(--font-prime);
+  font-style: italic;
   font-weight: 400;
   display: flex;
   justify-content: flex-start;
@@ -32,6 +33,7 @@
 .nav-logo-mobile {
   color: white;
   font-family: var(--font-prime);
+  font-style: italic;
   font-weight: 400;
   display: flex;
   justify-content: flex-start;
