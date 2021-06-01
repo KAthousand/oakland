@@ -111,3 +111,9 @@
     margin-top: 30%;
   }
 }
+
+@media screen and (max-height: 400px) and (max-width: 850px) {
+  .landing {
+    position: absolute;
+  }
+}
