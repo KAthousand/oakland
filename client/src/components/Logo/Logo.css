@@ -65,3 +65,12 @@
     transform: scale(1.75);
   }
 }
+
+@media screen and (max-height: 400px) and (max-width: 850px) {
+  .title-logo {
+    overflow: hidden;
+  }
+  .logo2 {
+    transform: scale(1.25);
+  }
+}

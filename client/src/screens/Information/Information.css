@@ -116,3 +116,13 @@
     padding: 5% 10%;
   }
 }
+
+@media screen and (max-height: 400px) and (max-width: 850px) {
+  .info-container {
+    height: 180vh;
+  }
+  .info-content {
+    width: 80%;
+    height: 80%;
+  }
+}

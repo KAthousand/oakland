@@ -133,3 +133,19 @@
     background-attachment: auto;
   }
 }
+
+@media screen and (max-height: 400px) and (max-width: 850px) {
+  .title-address {
+    height: 13vh;
+  }
+  .title-info {
+    height: 150vh;
+  }
+  .title-text {
+    height: 80%;
+    width: 80vw;
+  }
+  .title-body {
+    width: 30%;
+  }
+}
