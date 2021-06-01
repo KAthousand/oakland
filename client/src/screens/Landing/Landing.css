@@ -116,4 +116,7 @@
   .landing {
     position: absolute;
   }
+  .logo-subhead {
+    margin-top: 30%;
+  }
 }
