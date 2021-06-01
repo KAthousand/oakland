@@ -59,16 +59,16 @@ body {
 @media (max-width: 600px) {
   body {
     overflow: auto;
-    padding: env(safe-area-inset-top) env(safe-area-inset-right)
-      env(safe-area-inset-bottom) env(safe-area-inset-left);
   }
-}
 
-@media screen and (max-height: 400px) and (max-width: 850px) {
-  body {
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+  @media screen and (max-height: 400px) and (max-width: 850px) {
+    body {
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right)
+        env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
   }
   html {
     width: 100%;
