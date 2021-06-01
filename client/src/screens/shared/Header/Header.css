@@ -41,9 +41,10 @@
 
 .nav-link {
   color: var(--prime-light);
+  font-family: var(--font-tertiary);
   font-size: 0.7em;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   transition: 0.5s;
   height: 100%;
   display: flex;
