@@ -1,0 +1,25 @@
+HOW TO MAKE CHANGES-------
+
+Step One: 
+    -press command + spacebar to bring up the search
+    -type terminal
+    -type 'cd desktop' (don't include the quotes, hit enter after you type it)
+    -type 'cd websites' (don't include the quotes, hit enter after you type it)
+    -type 'cd oakland' (don't include the quotes, hit enter after you type it)
+    -type 'code .' (don't include the quotes hit enter after you type it, visual studio code will open with the code base.)
+    -open the client folder.
+    -open the src folder.
+    -open the screens folder. From here you can choose which screen you would like to edit.
+        -The title folder contains the about section, in title.jsx
+        -The information folder contains all of the contact info, hours, etc. in Information.jsx
+    -once you have made the changes, save the document you are working in with command+s 
+    -type 'git add .' (don't include the quotes, hit ender.)
+        -this will stage all the changes you added.
+    -type 'git commit -m "message" (don't include the single quotes, but the regular quotes should be there. inside message type a short explanation of what you changed, hit enter)
+        -ex:
+        git commit -m "updated hours"
+        -this will commit the changes you have saved.
+    -type 'git push origin master' (don't include the quotes, hit enter)
+        -this will push your changes to github, where they will be published to the live site.
+
+    -You are done!
