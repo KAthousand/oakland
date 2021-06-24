@@ -40,7 +40,6 @@ function Title(props) {
         <div className={state ? 'coupe-hand': "left-title-transition"}></div>
         <div className={state ? 'bottle-hands' : "right-title-transition"}></div>
         <div className={state ? 'collins-hand' : "left-title-transition"}></div>
-        {/* <div className={state ?  "left-coupe-transition" : 'collins-hand'}></div> */}
       </div>
     </div>
   );
