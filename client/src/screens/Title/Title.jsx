@@ -1,7 +1,28 @@
-import React from 'react';
+import {useState, useLayoutEffect, useRef} from 'react';
 import "./Title.css"
 
 function Title(props) {
+  const titleInfoRef = useRef(null)
+  const [state, setState] = useState(false)
+
+  useLayoutEffect(() => {
+    const topPosition = (element) => element.getBoundingClientRect().top
+
+    const onScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight;
+      console.log(scrollPosition)
+      const titleInfoPos = topPosition(titleInfoRef.current);
+      console.log(`Title info pos ${titleInfoPos}`)
+      if (scrollPosition > titleInfoPos) {
+        setState(true);
+      } else {
+        setState(false)
+      }
+    }
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  },[])
+
   return (
     <div className='title-container' id='title'>
       <div className='title-address'>
@@ -12,13 +33,14 @@ function Title(props) {
       </div>
       <div className='title-info'>
         <div className='title-text'>
-          <div className='title-body'>
+          <div className='title-body' ref={titleInfoRef}>
             <p>A friendly neighborhood bar in the heart of downtown Ferndale, MI serving world-class cocktails, exceptional American whiskey, and artisan Mezcal in a nostalgic and elegant environment</p>
           </div>
         </div>
-        <div className="coupe-hand"></div>
-        <div className="bottle-hands"></div>
-        <div className="collins-hand"></div>
+        <div className={state ? 'coupe-hand': "left-title-transition"}></div>
+        <div className={state ? 'bottle-hands' : "right-title-transition"}></div>
+        <div className={state ? 'collins-hand' : "left-title-transition"}></div>
+        {/* <div className={state ?  "left-coupe-transition" : 'collins-hand'}></div> */}
       </div>
     </div>
   );
