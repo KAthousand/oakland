@@ -13,10 +13,14 @@ function Information(props) {
           </a>
           <div className='info-header'><h5>HOURS</h5></div>
           <div className='info-body'>
+
+            {/* THIS IS WHERE YOU WOULD EDIT THE HOURS */}
             <p>TUES - THURS: 5<span className='hours'>pm</span>-12:30<span className='hours'>am</span></p>
             <p>FRI - SAT: 5<span className='hours'>pm</span>-1:30<span className='hours'>am</span></p>
             <p>SUNDAY: 5<span className='hours'>pm</span>-12:30<span className='hours'>am</span></p>
           </div>
+
+          {/* THIS IS WHERE YOU WOULD EDIT CONTACT INFORMATION */}
           <div className='info-header'><h5>CONTACT</h5></div>
           <div className='info-body'><p>(248)291-5295</p>
             <a href="mailto:info@theoaklandferndale.com" className='email'>info@theoaklandferndale.com</a>
@@ -24,7 +28,6 @@ function Information(props) {
           <div className= 'icon-container'>
             <a href='http://www.facebook.com/ArtNoveltyCompany' target="_blank" rel="noreferrer"><i className='fab fa-facebook-square'></i></a>
             <a href='http://www.instagram.com/artnoveltycompany' target="_blank" rel="noreferrer"><i className='fab fa-instagram-square'></i></a>
-            <a href='/' target="_blank" rel="noreferrer"><i className='fab fa-tripadvisor'></i></a>
           </div>
         </div>
       </div>

@@ -10,9 +10,7 @@ function Title(props) {
 
     const onScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight;
-      console.log(scrollPosition)
       const titleInfoPos = topPosition(titleInfoRef.current);
-      console.log(`Title info pos ${titleInfoPos}`)
       if (scrollPosition > titleInfoPos) {
         setState(true);
       } else {
@@ -34,6 +32,8 @@ function Title(props) {
       <div className='title-info'>
         <div className='title-text'>
           <div className='title-body' ref={titleInfoRef}>
+
+            {/* THIS IS WHAT IS IN THE ABOUT ME SECTION OF THE TITLE SCEEN */}
             <p>A friendly neighborhood bar in the heart of downtown Ferndale, MI serving world-class cocktails, exceptional American whiskey, and artisan Mezcal in a nostalgic and elegant environment</p>
           </div>
         </div>
