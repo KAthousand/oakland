@@ -15,9 +15,8 @@ function Information(props) {
           <div className='info-body'>
 
             {/* THIS IS WHERE YOU WOULD EDIT THE HOURS */}
-            <p>TUES - THURS: 5<span className='hours'>pm</span>-12:30<span className='hours'>am</span></p>
-            <p>FRI - SAT: 5<span className='hours'>pm</span>-1:30<span className='hours'>am</span></p>
-            <p>SUNDAY: 5<span className='hours'>pm</span>-12:30<span className='hours'>am</span></p>
+            <p>TUES - SAT: 5<span className='hours'>pm</span>-12:00<span className='hours'>am</span></p>
+            <p>SUNDAY: 4<span className='hours'>pm</span>-11:00<span className='hours'>am</span></p>
           </div>
 
           {/* THIS IS WHERE YOU WOULD EDIT CONTACT INFORMATION */}

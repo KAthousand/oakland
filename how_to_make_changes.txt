@@ -1,4 +1,4 @@
-HOW TO MAKE CHANGES-------
+ HOW TO MAKE CHANGES-------
 
 Step One: 
     -press command + spacebar to bring up the search
