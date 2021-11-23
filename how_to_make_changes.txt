@@ -6,6 +6,7 @@ Step One:
     -type 'cd desktop' (don't include the quotes, hit enter after you type it)
     -type 'cd websites' (don't include the quotes, hit enter after you type it)
     -type 'cd oakland' (don't include the quotes, hit enter after you type it)
+    -type 'git pull origin master' (dont include the quotes, hit enter after you type it)
     -type 'code .' (don't include the quotes hit enter after you type it, visual studio code will open with the code base.)
     -open the client folder.
     -open the src folder.
@@ -23,3 +24,4 @@ Step One:
         -this will push your changes to github, where they will be published to the live site.
 
     -You are done!
+
