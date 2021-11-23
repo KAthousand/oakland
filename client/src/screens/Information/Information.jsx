@@ -24,6 +24,7 @@ function Information(props) {
           </div>
           <div className="info-body">
             {/* THIS IS WHERE YOU WOULD EDIT THE HOURS */}
+
             <p>
               TUES - SAT: 5<span className="hours">pm</span>-12:00
               <span className="hours">am</span>
