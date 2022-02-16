@@ -5,7 +5,7 @@ function MenuButton(props) {
   return (
     // THIS IS THE LINK TO THE SHARED GOOGLE PDF OF THE CURRENT MENU
     <a
-      href="https://drive.google.com/file/d/1c-dThmUdX9wp3BwYyzoGaw1m-xOPPTpj/view?usp=sharing"
+      href="https://drive.google.com/file/d/1EFyXrevNcBRshFqlQ5KQ_QtU3yLMkjSG/view?usp=sharing"
       target="_blank"
       rel="noreferrer"
       className="menu-btn"
